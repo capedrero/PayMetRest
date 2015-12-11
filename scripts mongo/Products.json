@@ -1,0 +1,30 @@
+[{
+  "_id" : ObjectId("566b53c9a26d3b1fc8986af7"),
+  "className" : "com.paymet.rest.main.db.bean.ProductBean",
+  "name" : "tablet",
+  "price" : {
+    "unscaled" : NumberLong(2006),
+    "scale" : 1
+  },
+  "stock" : 100
+},
+{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af8"),
+  "className" : "com.paymet.rest.main.db.bean.ProductBean",
+  "name" : "smartphone",
+  "price" : {
+    "unscaled" : NumberLong(1500),
+    "scale" : 1
+  },
+  "stock" : 200
+},
+{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af9"),
+  "className" : "com.paymet.rest.main.db.bean.ProductBean",
+  "name" : "keyboard",
+  "price" : {
+    "unscaled" : NumberLong(100),
+    "scale" : 1
+  },
+  "stock" : 500
+}]

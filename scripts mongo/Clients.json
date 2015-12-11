@@ -1,0 +1,27 @@
+[{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af8"),
+  "className" : "com.paymet.rest.main.db.bean.ClientBean",
+  "name" : "Roberto",
+  "surname" : "Lopez",
+  "address" : "Avenida de Santa Eugenia 1, Madrid",
+  "phoneNumber" : NumberLong(666000001),
+  "bills" : [{
+      "$ref" : "Bill",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af6")
+    }]
+},
+{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af9"),
+  "className" : "com.paymet.rest.main.db.bean.ClientBean",
+  "name" : "Alvaro",
+  "surname" : "Perez",
+  "address" : "Plaza Castilla 1, Madrid",
+  "phoneNumber" : NumberLong(666000002),
+  "bills" : [{
+      "$ref" : "Bill",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af6")
+    }, {
+      "$ref" : "Bill",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af7")
+    }]
+}]

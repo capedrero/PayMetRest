@@ -1,0 +1,27 @@
+[{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af6"),
+  "className" : "com.paymet.rest.main.db.bean.BillBean",
+  "billDate" : ISODate("2015-12-11T22:52:58.014Z"),
+  "products" : [{
+      "$ref" : "Product",
+      "$id" : ObjectId("566b53c9a26d3b1fc8986af3")
+    }, {
+      "$ref" : "Product",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af4")
+    }]
+},
+{
+  "_id" : ObjectId("566b53caa26d3b1fc8986af7"),
+  "className" : "com.paymet.rest.main.db.bean.BillBean",
+  "billDate" : ISODate("2015-12-11T22:52:58.014Z"),
+  "products" : [{
+      "$ref" : "Product",
+      "$id" : ObjectId("566b53c9a26d3b1fc8986af3")
+    }, {
+      "$ref" : "Product",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af4")
+    }, {
+      "$ref" : "Product",
+      "$id" : ObjectId("566b53caa26d3b1fc8986af5")
+    }]
+}]
