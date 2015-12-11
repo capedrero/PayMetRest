@@ -1,4 +1,4 @@
-*Synopsis
+*[Synopsis]
 Implementación de dos servicios Rest.
 "/PaymetRest/Service/getProductsByClient"
 Get--> devuelve uan lista con los productos facturados por el cliente.
