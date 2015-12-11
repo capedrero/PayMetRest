@@ -1,21 +1,20 @@
 <h1>Synopsis</h1>
 
-This text was recognized by the built-in Ocrad engine. A better transcription may be attained by right clicking on the selection and changing the OCR engine to "Tesseract" (under the "Language" menu). This message can be removed in the future by unchecking "OCR Disclaimer" (under the Options menu). More info: http://projectnaptha.com/ocrad
-Implementación de dos servicios Rest.
-"/PaymetRest/Service/getProductsByClient"
-Get--> devuelve uan lista con los productos facturados por el cliente.
-"/PaymetRest/Service/saveClient"
-Post--> Inserta o actualiza, si ya existiera, un cliente.
-La estructura de documentos json:
-        Client(Con id propio) --->Lista de Facturas
-        Bill(Con id propio) Contiene una lista de productos.
-        Producto(Con Id propio)
+Implementación de dos servicios Rest.<br>
+"/PaymetRest/Service/getProductsByClient"<br>
+Get--> devuelve uan lista con los productos facturados por el cliente.<br>
+"/PaymetRest/Service/saveClient"<br>
+Post--> Inserta o actualiza, si ya existiera, un cliente.<br>
+La estructura de documentos json:<br>
+        Client(Con id propio) --->Lista de Facturas<br>
+        Bill(Con id propio) Contiene una lista de productos.<br>
+        Producto(Con Id propio)<br>
 
-APIs
-Rest-Assured 2.6.0
-Spring-Boot 1.2.7.RELEASE
-Morphia 1.0.1
-Jersey 2.14
+APIs<br>
+Rest-Assured 2.6.0<br>
+Spring-Boot 1.2.7.RELEASE<br>
+Morphia 1.0.1<br>
+Jersey 2.14<br>
 
 
 Code Example
