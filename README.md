@@ -1,6 +1,6 @@
 <h1>Synopsis</h1>
 
-Implementación de dos servicios Rest con base de datos MongoDb.<br>
+Implementación de dos servicios Rest Java con base de datos MongoDb.<br>
 "/PaymetRest/Service/getProductsByClient"<br>
 Get--> devuelve uan lista con los productos facturados por el cliente.<br>
 "/PaymetRest/Service/saveClient"<br>
