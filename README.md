@@ -4,7 +4,7 @@ Implementación de dos servicios Rest con base de datos MongoDb.<br>
 "/PaymetRest/Service/getProductsByClient"<br>
 Get--> devuelve uan lista con los productos facturados por el cliente.<br>
 "/PaymetRest/Service/saveClient"<br>
-Post--> Inserta o actualiza, si ya existiera, un cliente, actualizando así sus facturas según el enunciado<br>
+Post--> Inserta o actualiza, si ya existiera, un cliente, actualizando así sus facturas según el enunciado.<br>
 La estructura de documentos json:<br>
         Client(Con id propio) que contiene Lista de Facturas<br>
         Bill(Con id propio) que contiene una lista de productos.<br>
@@ -19,7 +19,7 @@ Jersey 2.14<br>
 <h1>Installation</h1>
 
 Base de Datos con MongoDb, con un datasource llamado dbpaymet, se puede arrancar con datos de prueba ejecutando el test:<br>
-        <i>com.paymet.rest.test.TestMorphia.initDB();</i><br>
+        <i>com.paymet.rest.test.TestMorphia.initDB();</i><br><br>
 Se incorporan también unos scripts de prueba en la carpeta "scripts mongo".<br>      
         
 <h1>Test</h1>
