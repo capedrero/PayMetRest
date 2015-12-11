@@ -1,6 +1,6 @@
 <h1>Synopsis</h1>
 
-Implementación de dos servicios Rest.<br>
+Implementación de dos servicios Rest con base de datos MongoDb.<br>
 "/PaymetRest/Service/getProductsByClient"<br>
 Get--> devuelve uan lista con los productos facturados por el cliente.<br>
 "/PaymetRest/Service/saveClient"<br>
@@ -25,7 +25,9 @@ Motivation
 
 
 
-Installation
+<h1>Installation</h1>
+LA Base de Datos se puede arrancar con datos de prueba ejecutando el test:<br>
+        <i>com.paymet.rest.test.TestMorphia.initDB();<i/>
 
 
 
