@@ -20,15 +20,15 @@ Jersey 2.14<br>
 <h1>Installation</h1>
 
 Base de Datos con MongoDb, con un datasource llamado dbpaymet, se puede arrancar con datos de prueba ejecutando el test:<br>
-        <i>com.paymet.rest.test.TestMorphia.initDB();<i/>
-Se incorporan también unos scripts de prueba en la carpeta "scripts mongo".        
+        <i>com.paymet.rest.test.TestMorphia.initDB();<i/><br>
+Se incorporan también unos scripts de prueba en la carpeta "scripts mongo".<br>      
         
 
 API Reference
 
 <h1>Test</h1>
-<u>Solo es necesario arrancar un servidor mongo para su ejecución.<u/>
-Cada ejecuión ya prepara la base de datos a un estado incial de prueba.
-com.paymet.rest.test.TestServiceGet;
+<u>Solo es necesario arrancar un servidor mongo para su ejecución.<u/><br>
+Cada ejecuión ya prepara la base de datos a un estado incial de prueba.<br>
+com.paymet.rest.test.TestServiceGet;<br>
 com.paymet.rest.test.TestServicePost;
 
